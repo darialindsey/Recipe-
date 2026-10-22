@@ -1,0 +1,18 @@
+<!-- Here I can change background color, font(imported) and padding, I googled the formula for inputting color -->
+body {
+    background-color:ffb69b4;
+    font-family: Arial, sans-serif;
+    padding:24.5px;
+}
+<!-- headers -->
+h2 {
+    color#ffb6c1;
+}
+<!-- person boxes -->
+.person.box {
+    background color: white;
+    border: 3px solid: #ff1493;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
