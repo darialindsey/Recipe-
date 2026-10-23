@@ -17,3 +17,17 @@ h2 {
     padding: 15px;
     margin-bottom: 15px;
 }
+/*Here is my flex box where I create columns for the recipe page*/
+.two-column-container {
+    display: flex; 
+    gap: 25px;
+}
+/*This adjusts the columns to that they share equal space*/
+.left-column,
+.right-column {
+    flex: 1
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 12px; 
+    border: 2px solid #ffb6c1; /*soft pink border*/
+}
