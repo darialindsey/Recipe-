@@ -1,13 +1,13 @@
 /*Here I can change background color, font and padding, I googled the formula for inputting color*/
 body {
-    background-color: #f6ace4; /*cute pink background*/
+    background-color: #eda8dc; /*cute pink background*/
     font-family: Arial, cambria;
     color: #170215;
     padding:30px;
 }
 /*headers*/
 h2 {
-    color: #f5a4de;
+    color: #eda8d9;
 }
 /*person boxes*/
 .person.box {
