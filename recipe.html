@@ -5,34 +5,59 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Blackberry Dumpling Recipe</title>
+        <!--bootstrap CSS CDN-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Blackberry Dumplings By Sonja N.</title>
     </head>
-    <body> 
-        <header>
-            <h1>Blackberry Dumpling Recipe</h1>
-            <p>Presented by Sonja Norwood</p>
-<!--added a break between the recipe title and both the recipe + instructions using a separator line-->
-        </header>
-        <hr>
-    <div class="row">
-        <!--left column-->
-        <div class="col-12 col-md-6">
-            <div class="image-container">
-            <!--insert dumpling recipe image-->
-                <img src="Blackberry-Dumplings.webp" alt= "blackberry dumpling recipe" class="bbdumplings">
+        <body>
+            <!--container for nav bar-->
+            <div class="container-fluid p-0">
+                <!--navbar will go here-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid px-4">
+                        <a class="navbar-brand fw bold" href="#">Sonja's Kitchen</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                         </button>
+                         <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Blackberry Dumplings</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">More Recipes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
+        <!--main content container-->
+        <div class="container my-4">
+            <header class="">
+                <h1 class=""</h1>
+                <p class=""</p>
+            </header>
+            <hr class="mb-5">
+
+            <div class="row g-4">
+        <!--left column-->
+                <div class="col-12 col-md-6">
+                    <div class="image-container mb-4">
+            <!--insert dumpling recipe image-->
+                <img src="Blackberry-Dumplings.webp" alt= "blackberry dumpling recipe" class="img-fluid rounded shadow-sm">
+                </div>
             <!-- recipe and images on the left and cooking instructions on the right-->
-                <!--Left side column-->
-                <h2>For this recipe you'll need:</h2>
-                <h3>Ingredients for the blackberry syrup:</h3>
-                <ul> 
+                <h2 class="h3 mb-3">For this recipe you'll need:</h2>
+                <h3 class="h5 text-primary">Ingredients for the blackberry syrup:</h3>
+                <ul class="mb-4"> 
                     <li>4 cups blackberries</li>
                     <li>1 cup granulated sugar</li>
                     <li>2 cups water</li>
                     <li>1 tablespoon lemon juice</li>
                     <li>zest of one lemon</li>
             </ul>
-                <h3>Ingredients for dumplings:</h3>
+                <h3 class="h5 text-primary">Ingredients for dumplings:</h3>
                     <ul>
                         <li>2 cups all-purpose flour</li>
                         <li>1.4 cup granulated sugar</li>
