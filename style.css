@@ -8,7 +8,7 @@ body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
     margin: 0 auto; /*removes default white border spacing*/
     padding: 20px;
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', Arial, Helvetica, Impact;
     line-height: .75; /* the spacing between the Blackberry dumpling recipe header and presented by */
 }
 
