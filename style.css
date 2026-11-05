@@ -1,23 +1,28 @@
 * {
     box-sizing: border-box;
-    margin 10;
-    padding: 10;
+    margin 5;
+    padding: 5;
 }
 
 body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
-    margin: 0; /*removes defaultwhite border spacing*/
+    margin: 0 auto; /*removes default white border spacing*/
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    line-height: .75; /* the spacing between the Blackberry dumpling recipe header and presented by */
 }
 
 header h1 {
-    text-decoration: dotted;
-    border-bottom-color: rgb(219, 124, 219);
     color: rgb(192, 18, 140); /*black text inside of header*/
-    margin: 0;
+    padding: 10px 0px;
+    margin-bottom: 10px; 
+    box-sizing: border-box;
 }
 
 .image-container {
-    max-width: 100px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    border-radius: 8px;
     width: 500px;
 }
 
@@ -30,10 +35,13 @@ header h1 {
 .column {
     flex: 1;
     min-width: 0;
+    padding: 15px 20px; 
+    box-sizing: border-box;
 }
 .bbdumplings {
     width: 100%;
     height: auto;
+    object-fit: cover;
     display: block;
 }
 
