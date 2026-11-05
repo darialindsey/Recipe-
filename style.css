@@ -34,7 +34,7 @@ header {
     color: #555;
     font-weight: bold;
 }
-video-wrapper {
+.video-wrapper {
     position:relative;
     padding-bottom: 56.25%;
     height: 0:
@@ -75,7 +75,13 @@ hr {
     margin-top: 8px;
 }
 .series-list {
-    
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #777;
+    padding: 30px 0 10px;
 }
 .image-container {
     margin-bottom: 1.5rem;
