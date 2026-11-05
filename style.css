@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
-    margin 5;
-    padding: 5;
+    margin 10;
+    padding: 10;
 }
-
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
     margin: 0 auto; /*removes default white border spacing*/
@@ -61,12 +65,13 @@ hr {
 .creator-image-container {
     text-align: center;
     margin: 20px 0;
-}
-.profile.img {
-    max-width: 100%;
-    height: auto;
-    max-height: 500px; 
-    border-radius: 6px;
+
+.creator-image-container .profile.img {
+    width: 280px; !important;
+    max-width: 100%; !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
 }
 .caption {
     font-size: 0.9em;
@@ -113,9 +118,4 @@ footer {
     .two-column-container {
         flex-direction: column;
     }
-}
-.page-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
 }
