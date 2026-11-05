@@ -1,20 +1,5 @@
-<ul>ingredients for the blackberry syrup:
-    <li>4 cups blackberries</li>
-    <li>1 cup granulated sugar</li>
-    <li>2 cups water</li>
-    <li>1 tablespoon lemon juice</li>
-    <li>zest of one lemon</li>
-</ul>
-<ul>ingredients for dumplings:
-    <li>2 cups all-purpose flour</li>
-    <li>1.4 cup granulated sugar</li>
-    <1i>1 1/2 teaspoon baking powder</li>
-    <li>1/2 teaspoon salt</li>
-    <li>1/4 teaspoons nutmeg</li>
-    <li>3/4 cup milk</li>
-    <li>1 large egg</li>
-    <li> 1 teaspoon vanilla extract</li>
-</ul>
+
+
 
 
 
@@ -27,9 +12,8 @@ Bring the mixture to a boil over medium-high heat, stirring occasionally.
 Reduce heat to low and allow the berries to gently simmer while preparing the dumplings.
 
 For the Dumpling Dough:
-In a large bowl whisk together: flour, sugar, baking powder, salt and nutmeg.
-In a separate bowl whisk together: milk, egg and vanilla.
-Pour the wet ingredients into the dry ingredients and stir just until a soft, slightly sticky dough forms. If the dough feels too wet, add a little more flour one tablespoon at a time until it holds together.
+
+
 Cooking and Serving the Dumplings: 
 
 Increase the heat under the blackberries to medium so the syrup is gently simmering.
@@ -38,8 +22,64 @@ Cover the pot with a lid and do not stir.
 Let the dumplings cook for 15 minutes. Important: Do not lift the lid during this time—the steam is what cooks and puffs the dumplings.
 Remove the lid.
 
-If desired, gently turn the dumplings so the tops get coated in the blackberry syrup.
-Let the mixture simmer uncovered for 5 minutes to slightly thicken the syrup.
-After simmering uncovered for about 5 minutes to thicken the syrup, you don’t need to separate anything. The dumplings should already be sitting in that rich syrup.
-You can spoon everything directly into a bowl and then ladle extra syrup right over the top when serving. It’s meant to be saucy and cozy, almost like a one-pot dessert.
 
+introduction video:
+<iframe width="1424" height="651" src="https://www.youtube.com/embed/f_bJ0oWsiRQ?list=PL7Z8LIHHPA9G48KUw05eWSJv1YIiDbh2r" title="Blackberry Dumplings! (RECIPE IN DESCRIPTION)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+/*Here I can change background color, font and padding, I googled the formula for inputting color*/
+body {
+    background-color: linear-gradient(135deg, #fddde6 0%, #fff5f8 100%); /*blends a soft-blush with a warm white*/
+    min-height: 100vh; /* Ensures gradient covers full screen*/
+    margin: 0;
+    font-family: Arial;
+    color: #170215;
+    padding:30px;
+}
+/*headers*/
+header {
+    background-color: #fff0f5;
+    text-align: center
+    border: 3px dashed #ffb6c1
+    border-radius: 16px; 
+    box shadow: 0 4px 10px rgba(0,0,0,0.19)
+    margin-bottom: 20px;
+}
+/*Make the image automatically resize without stretching*/
+.responsive-img {
+    max-width: 100%; /*prevents image from overflowing container*/
+    height: auto; /*keeps original proportions*/
+    border-radius: 8px; /*adds soft rounded corners*/
+}
+/*Center the container on the page*/
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+
+
+/*person boxes*/
+.person.box {
+    background color: white;
+    border: 10px solid: #ff1493;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+/*Here is my flex box where I create columns for the recipe page*/
+.two-column-container {
+    display: flex; 
+    gap: 25px;
+}
+/*This adjusts the columns to that they share equal space*/
+.left-column,
+.right-column {
+    flex: 1
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 12px; 
+    border: 2px solid #ffb6c1; /*soft pink border*/
+}
