@@ -1,16 +1,18 @@
 * {
     box-sizing: border-box;
-    margin 0;
-    padding: 0;
+    margin 10;
+    padding: 10;
 }
 
 body {
-    background-color: rgb(231, 179, 204) !important; /*golden yellow background*/
+    background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
     margin: 0; /*removes defaultwhite border spacing*/
 }
 
 header h1 {
-    color: rgb(96, 52, 6); /*black text inside of header*/
+    text-decoration: dotted;
+    border-bottom-color: rgb(219, 124, 219);
+    color: rgb(192, 18, 140); /*black text inside of header*/
     margin: 0;
 }
 
@@ -19,22 +21,21 @@ header h1 {
     width: 500px;
 }
 
+.two-column-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; 
+}
+
+.column {
+    flex: 1;
+    min-width: 0;
+}
 .bbdumplings {
     width: 100%;
     height: auto;
     display: block;
 }
-
-.two-column-container {
-    display: flex;
-    flex direction: row;
-    gap: 20px; 
-}
-
-.column {
-    flex: 1;
-}
-
 
 @media (max-width: 768px) {
     .two-column-container {
