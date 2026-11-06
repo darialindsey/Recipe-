@@ -4,6 +4,26 @@
     margin: 0 auto;
     padding: 20px;
 }
+/*index-header title animation and accent underline using ai*/
+.index-header-title {
+    background: linear-gradient(135deg, #1a1a1a 0%, #7e1e80 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+    position: relative;
+    display: inline-block;
+}
+/*accent underneath using ai*/
+.index-header-title::after {
+    content: '';
+    display: block;
+    width; 60px;
+    height: 3px;
+    background: #d4af37 /*warm gold*/
+    margin: 12px auto 0 auto;
+    border-radius: 2px;
+}
+
 /*animated sparkling header using ai*/
 .sparkle-header {
     background: linear-gradient(
