@@ -19,7 +19,8 @@ if(addNoteBtn) {
     addNoteBtn.addEventListener('click', function() {
         const noteText = noteInput.value.trim();
 
-        if (noteTExt !== ') {
+        if (noteTExt !== '') {
+            const newNote = document.createElement('li')
             
     }
 }
