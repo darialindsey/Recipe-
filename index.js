@@ -19,8 +19,19 @@ if(addNoteBtn) {
     addNoteBtn.addEventListener('click', function() {
         const noteText = noteInput.value.trim();
 
-        if (noteTExt !== '') {
-            const newNote = document.createElement('li')
+        if (noteText !== '') {
+            //create new list element
+            const newNote = document.createElement('li');
+            //setting text content of notes box
+            newNote.textContent =noteText;
+            newNote.className ='list-group-item list-group-item-action d-flex 
+            justify-content-between align-items-center';
+            //ability to remove notes from notes box
+            newNote.addEventListener('click, function()' {
+                
+            }
+
+
             
     }
 }
