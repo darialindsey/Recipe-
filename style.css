@@ -4,6 +4,27 @@
     margin: 0 auto;
     padding: 20px;
 }
+/*animated sparkling header using ai*/
+.sparkle-header {
+    background: lineear-gradient (
+        90deg, 
+        #2b2b2b 0%,
+        #8a2be2 24%,
+        #8a2be2 50%,
+        #8a2be2 75%,
+        #2b2b2b 100%
+    );
+    background-size: 200% auto;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shine 4s linear infinite; 
+}
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
 /*added CSS rule to force all recipe page text and links to solid black because they were blue*/
 body,
 h1, h2, h3, h4, h5, h6, p, li, a {
@@ -11,18 +32,21 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 /*media query for small screens, currently the media query is doing the opposite of what it should and making images larger, taking away background colors. Currently working on it */
-/* @media (max-width: 768px) { */
-    /* body { */
-        /* padding: 5px; */
-    /* } */
-    /* h1 display-4 { */
-        /* font-size: 2.2rem !important; */
-    /* } */
-    /* ul li {
+ @media (max-width: 768px) {
+    body { 
+         padding: 5px;
+    }
+     h1 display-4 { */
+         font-size: 2.2rem !important;
+    } 
+     ul li {
         padding: 8px 0;
-    } */
-     /*.hero-recipe-img {
-     
+    } 
+     .hero-recipe-img {
+        width: 85%
+        max-height: 250px !important;
+    }
+ }
 
 body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
