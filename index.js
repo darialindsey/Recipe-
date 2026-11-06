@@ -1,5 +1,5 @@
 //FEATURE 1: click ingredient to cross it off, strikethrough
-//used online + curriculum resources while learning to manipulate notes feature 
+//used curriculum resources and as last resort Nu html checker while learning to manipulate notes features to see specific lines bug issues e.g. missing closing syntax on line on line 66
 //==============================================================
 const ingredientItems = document.querySelectorAll('.col-md-6 ul li');
 ingredientItems.forEach(function(item) {
@@ -14,7 +14,7 @@ ingredientItems.forEach(function(item) {
 });
 //=============================================================
 //FEATURE 2 meaningful interaction notes box. users can put notes
-//directly into the page
+//directly into the page. I 
 const noteInput = document.getElementById('noteInput');
 const addNoteBtn = document.getElementById('addNoteBtn');
 const notesList = document.getElementById('notesList');

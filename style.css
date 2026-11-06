@@ -8,11 +8,19 @@
     margin: 0 auto;
     padding: 20px;
 }
-/*added CSS rule to force all recipe page text and links to solid black*/
+/*added CSS rule to force all recipe page text and links to solid black because they were blue*/
 body,
 h1, h2, h3, h4, h5, h6, p, li, a {
     color: #00000 !important;
 }
+/*media query for small screens, currently the media query is doing the opposite of what it should and making images larger, taking away background colors. Currently working on it */
+/* @media (max-width: 768px) { */
+    /* body { */
+        /* padding: 5px; */
+    /* } */
+    /* h1 display-4 { */
+        /* font-size: 2.2rem !important; */
+    /* } */
 body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
     margin: 0 auto; /*removes default white border spacing*/
