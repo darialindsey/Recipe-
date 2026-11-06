@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin 10;
-    padding: 10;
-}
+
 .page-container {
     max-width: 800px;
     margin: 0 auto;
@@ -13,6 +9,7 @@ body,
 h1, h2, h3, h4, h5, h6, p, li, a {
     color: #00000 !important;
 }
+
 /*media query for small screens, currently the media query is doing the opposite of what it should and making images larger, taking away background colors. Currently working on it */
 /* @media (max-width: 768px) { */
     /* body { */
@@ -21,6 +18,12 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     /* h1 display-4 { */
         /* font-size: 2.2rem !important; */
     /* } */
+    /* ul li {
+        padding: 8px 0;
+    } */
+     /*.hero-recipe-img {
+     
+
 body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
     margin: 0 auto; /*removes default white border spacing*/
@@ -51,6 +54,7 @@ header {
     color: #555;
     font-weight: bold;
 }
+
 .video-wrapper {
     position:relative;
     padding-bottom: 56.25%;
@@ -83,7 +87,7 @@ header {
 hr {
     border: 0;
     height: 1px;
-    background: #af1313;
+    background: #df8e14;
     margin: 40px 0;
 }
 .creator-image-container {
