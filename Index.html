@@ -2,85 +2,123 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Blackberry Dumplings By Sonja Norwood</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Lost Black-American Recipes Revived By: Sonja Norwood</title>
         <link rel="stylesheet" href="style.css">
-    </head>
-        <body>
-            <header>
-                <h1>Sonja Norwood Finds and Recreates Lost Black American Recipes</h1>
-            </header>
-                <br>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#About-Sonja">About Sonja</a></li>
-                        <li><a href="recipe.html">Recipe</a></li>
-                    </ul>
-    </header>
-        <br>
-<!--Here I added space for "About the Creator" with page breaks-->
-        <br>
-<!--embedded youtube recipe introduction video here-->
-            <iframe width="1424" 
-            height="651" 
-            src="https://www.youtube.com/embed/f_bJ0oWsiRQ?list=PL7Z8LIHHPA9G48KUw05eWSJv1YIiDbh2r" 
-            title="Blackberry Dumplings! (RECIPE IN DESCRIPTION)" 
-            frameborder="0" 
-            allow="accelerometer; 
-            autoplay; 
-            clipboard-write; 
-            encrypted-media; 
-            gyroscope; 
-            picture-in-picture; 
-            web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-            </iframe>
-        <br>
-        <hr> <!-- Horizontal line break -->
-                <section id="B-A-Recipes-Are-Dissappearing>"
-                    <p>Traditional Black American recipes are dissappearing due to loss of oral tradition, decline of "scratch" cooking and commercialization and cultural erasure.</p>
-                    <p>Many recipes were born out of want, need & celebration just as others were created out of desperation and survival.</p>
-                    <p>Historically, it was illegal for enslaved people to learn to read or write. Because of this, culinary techniques snd recipes were passed down entirely through oral tradition. </p>
-                    <p>Modern food systems favor convenience over labor-intensive preparation. Ancestral cooking required patience and often-times hours of foraging, slow-cooking, and preservation such as curing or pickling</p>
-                    <p>Southern and "Soul Food" have been largely commercialized, the roots of these dishes often scrubbed away.</p>
-                    <p>Many foundational recipes relied on using the "whole animal". Today, mass-market grocery stores make finding authentic ingredients physically harder to find.</p>
-<!--"About the Creator" section after horizontal line break-->
-        <hr> 
-                <section id="About-Sonja">
-                    <h2>About The Creator:</h2>
-                    <h3>Viral Food Creator, Artist, History Educator Sonja Norwood</h3>
-                         <div class="flex container">
-                            <div class="flex item">
-                    <!--insert about the creator image here-->
-                                 <img src="C-Sonja-Norwood-finishing-her-burnt-sugar-cake-652x1024.webp" alt="About Image">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--bootstrap css cdn-->
+        </head>
+        
+            <!--bootstrap navigation-->
+            <div class="container-fluid p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+                    <div class="container-fluid px-4">
+                        <a class="navbar-brand fw-bold" href="index.html">Sonja's Kitchen</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#About-Sonja">About Sonja</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="recipe.html">Blackberry Dumplings Recipe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--main content container-->
+            <div class="container my-4">
+
+                <header class="text-center mb-4">
+                    <h1 class="display-4 fw-bold index-header-title">Blackberry Dumplings</h1>
+                    <p class="lead text-muted">Revived By: Sonja Norwood <br> Presented By: Daria Lindsey</p>
+                </header>
+
+                <hr class="mb-5">
+
+                <main>
+                <!--video section, using <div> instead of section to troubleshoot video-->
+                    <div class="video-section mb-5 text-center">
+                        <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden mx-auto" style="max-width:900px;">
+                    <!--embedded youtube recipe video here-->
+                            <iframe
+                                src="https://www.youtube.com/embed/f_bJ0oWsiRQ?list=PL7Z8LIHHPA9G48KUw05eWSJv1YIiDbh2r"
+                                title="Blackberry Dumplings! (RECIPE IN DESCRIPTION)"
+                                allow="accelerometer; 
+                                autoplay; 
+                                clipboard-write; 
+                                encrypted-media; 
+                                gyroscope; 
+                                picture-in-picture; 
+                                web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+        <hr class="my-5">
+                    <!--recipes are dissappearing section-->
+                    <section id="recipes-disappearing" class="content-block my-5">
+                        <p class="h3 fw-bold mb-4 fst italic text-dark">Traditional Black American recipes are dissappearing due to loss of oral tradition, decline of "scratch" cooking and commercialization and cultural erasure.</p>
+                        <div class="row g-3 fs-5">
+                            <div class="col-12 col-md-6">
+                                <p>Many recipes were born out of want, need & celebration just as others were created out of desperation and survival.</p>
+                                <p>Historically, it was illegal for enslaved people to learn to read or write. Because of this, culinary techniques snd recipes were passed down entirely through oral tradition. </p>
+                                <p>Modern food systems favor convenience over labor-intensive preparation. Ancestral cooking required patience and often-times hours of foraging, slow-cooking, and preservation such as curing or pickling</p>
                             </div>
-<!--caption right below About the Creator image-->
-         <h5> Pictured: Sonja bakes a Burnt Sugar Cake from her "Lost Black American Recipes" series.</h5>
-            <p>During Black History Month of this year, Sonja Norwood took on the remarkable feat of reviving dozens of nearly forgotten Black American recipes. Thorough and meticulous, she shares the recipes, context and history behind each recipe.</p>
-            <p>Thoughtful, nutrient-rich recipes designed to support the body through different phases of life.</p>
-            <p>She explores the science behind the ingredients, the nutritional needs of each phase, and how food can be both functional and delicious.</p>
-            <p>This series covers:</p>
-                <ul>
-                    <li>Menstruation</li>
-                    <li>Preconception</li>
-                    <li>Pregnancy</li>
-                    <li>Postpartum Recovery</li>
-                    <li>Nursing & Lactation</li>
-                    <li>Perimenopause</li>
-                    <li>Menopause</li>
-                </ul>
-        <!--Added space via line breaks-->
-        <br>
-        <br>
-        <br>
-        <br>
+                            <div class="col-12 col-md-6">
+                                <p>Southern and "Soul Food" have been largely commercialized, the roots of these dishes often scrubbed away.</p>
+                                <p>Many foundational recipes relied on using the "whole animal". Today, mass-market grocery stores make finding authentic ingredients physically harder to find.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!--"About the Creator" section-->
+                    <hr class="my-5"> 
+                    <!--forced text to be black by using "text-dark"-->
+                    <section id="About-Sonja" class="content-block my-5 text-dark">
+                    <div class="row g-4 align-items-start">
+                        <div class="col-12 col-md-3 text-center">
+                            <div class="creator-image-container">
+                    <!--insert about the creator image here-->
+                            <img src="C-Sonja-Norwood-finishing-her-burnt-sugar-cake-652x1024.webp" alt="Sonja Norwood finishing her burnt sugar cake" class="img-fluid rounded shadow style-creator-img">
+                            <p class="caption text-muted mt-2 fst-italic">Pictured: Sonja bakes a Burnt Sugar Cake from her "Lost Black American Recipes" series.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9 fs-5 text-start">
+                            <h2 class="h3 fw-bold text-dark mb-1">About the Creator:</h2>
+                            <h3 class="h4 text-dark mb-4">Viral Food Creator, Artist and Educator Sonja Norwood</h3>
+                            <p>During Black History Month of this year, Sonja Norwood took on the remarkable feat of reviving dozens of nearly forgotten Black American recipes. Thorough and meticulous, she shares the recipes, context and history behind each recipe.</p>
+                            <p>Thoughtful, nutrient-rich recipes designed to support the body through different phases of life.</p>
+                            <p>She explores the science behind the ingredients, the nutritional needs of each phase, and how food can be both functional and delicious.</p>
+                            <h3 class="h5 fw-bold mt-4">This series covers:</h3>
+                            <ul class="series-list">
+                                <li>Menstruation</li>
+                                <li>Preconception</li>
+                                <li>Pregnancy</li>
+                                <li>Postpartum Recovery</li>
+                                <li>Nursing & Lactation</li>
+                                <li>Perimenopause</li>
+                                <li>Menopause</li>
+                            </ul>
+                        </div>
+                    </div>
+                    </section>
+                </main>
 
-            <footer>
-                 <p>Techtonica 2023 CSS Challenge. All rights reserved.</p>
+            <footer class="text-center text-muted my-5 pt-4 border-top">
+                 <p>&copy; Techtonica 2023 CSS Challenge. All rights reserved.</p>
             </footer>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         </body>
-
-
 </html>
 
     
