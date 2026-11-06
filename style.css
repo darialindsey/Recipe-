@@ -84,11 +84,11 @@ hr {
 }
 
 .style-creator-img {
-    width: 60% !important;
-    max-width: 250px !important;
-    height: auto !important; 
-    display: block !important;
-    margin: 0 auto 15px auto!important;
+    width: 60% ;
+    max-width: 250px ;
+    height: auto ; 
+    display: block ;
+    margin: 0 auto 15px auto;
 }
 .caption {
     font-size: 0.9em;
