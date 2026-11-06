@@ -15,3 +15,11 @@ ingredientItems.forEach(function(item) {
 //=============================================================
 //FEATURE 2 meaningful interaction notes box. users can put notes
 //directly into the page
+if(addNoteBtn) {
+    addNoteBtn.addEventListener('click', function() {
+        const noteText = noteInput.value.trim();
+
+        if (noteTExt !== ') {
+            
+    }
+}
