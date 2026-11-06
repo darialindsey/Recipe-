@@ -1,6 +1,5 @@
 //FEATURE 1: click ingredient to cross it off, strikethrough
-//used online + curriculum resources while learning to manipulate elements 
-//piece
+//used online + curriculum resources while learning to manipulate notes feature 
 //==============================================================
 const ingredientItems = document.querySelectorAll('.col-md-6 ul li');
 ingredientItems.forEach(function(item) {
@@ -13,3 +12,6 @@ ingredientItems.forEach(function(item) {
         item.classList.toggle('text-muted');
     });
 });
+//=============================================================
+//FEATURE 2 meaningful interaction notes box. users can put notes
+//directly into the page
