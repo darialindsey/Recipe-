@@ -6,11 +6,11 @@
 }
 /*animated sparkling header using ai*/
 .sparkle-header {
-    background: lineear-gradient (
+    background: linear-gradient(
         90deg, 
         #2b2b2b 0%,
         #8a2be2 24%,
-        #8a2be2 50%,
+        #d8bfd8 50%,
         #8a2be2 75%,
         #2b2b2b 100%
     );
@@ -20,6 +20,7 @@
     background-clip: text;
     animation: shine 4s linear infinite; 
 }
+/* shine on blackberry dumpling using ai*/
 @keyframes shine {
     to {
         background-position: 200% center;
