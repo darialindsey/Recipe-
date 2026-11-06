@@ -81,13 +81,14 @@ hr {
 .creator-image-container {
     text-align: center;
     padding: 10px;
+}
 
 .style-creator-img {
-    width: 60%;
-    max-width: 250px;
-    height: auto; 
-    display: block;
-    margin: 0 auto;
+    width: 60% !important;
+    max-width: 250px !important;
+    height: auto !important; 
+    display: block !important;
+    margin: 0 auto 15px auto!important;
 }
 .caption {
     font-size: 0.9em;
