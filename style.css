@@ -18,7 +18,7 @@
     color: transparent !important;
     -webkit-background-clip: text;
     background-clip: text;
-    animation: shine 4s linear infinite; 
+    animation: shine 9s linear infinite; 
 }
 /* shine on blackberry dumpling using ai*/
 @keyframes shine {
