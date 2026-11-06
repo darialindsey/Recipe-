@@ -28,8 +28,11 @@ if(addNoteBtn) {
             justify-content-between align-items-center';
             //ability to remove notes from notes box
             newNote.addEventListener('click, function()' {
-                
+                Note.remove();
             }
+            //clear input field
+            note.value = '';
+
 
 
             
