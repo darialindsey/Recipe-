@@ -34,7 +34,7 @@ if(addNoteBtn) {
                 newNote.remove();
             });
             //append child element to parent
-            notesList.appendchild(newNote);
+            notesList.appendChild(newNote);
             //clear input field
             noteInput.value = '';
              }   
