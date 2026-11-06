@@ -27,13 +27,14 @@ if(addNoteBtn) {
             newNote.className ='list-group-item list-group-item-action d-flex 
             justify-content-between align-items-center';
             //ability to remove notes from notes box
-            newNote.addEventListener('click, function()' {
-                Note.remove();
+            newNote.addEventListener('click', function() {
+                newNote.remove();
             }
+            //append child element to parent
+            notesList.appendchild(newNote);
             //clear input field
             note.value = '';
-
-
+        }
 
             
     }
