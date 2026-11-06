@@ -8,6 +8,11 @@
     margin: 0 auto;
     padding: 20px;
 }
+/*added CSS rule to force all recipe page text and links to solid black*/
+body,
+h1, h2, h3, h4, h5, h6, p, li, a {
+    color: #00000 !important;
+}
 body {
     background-color: rgb(202, 159, 180) !important; /*golden yellow background*/
     margin: 0 auto; /*removes default white border spacing*/
